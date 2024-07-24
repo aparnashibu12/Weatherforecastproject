@@ -1,0 +1,39 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+#getWeatherBtn {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#weatherInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.text-danger {
+    color: #dc3545;
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+
+    #weatherInfo {
+        padding: 10px;
+    }
+}
